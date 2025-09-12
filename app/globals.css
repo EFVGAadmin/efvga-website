@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* EFVGA brand colours */
+  --yellow-400: #ffcc66; /* primary yellow */
+  --yellow-100: #ffecbc; /* light yellow */
+  --orange-700: #cc6502; /* accent for buttons / links */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Expose brand colours as tokens for utility usage */
+  --color-yellow-100: var(--yellow-100);
+  --color-yellow-400: var(--yellow-400);
+  --color-orange-700: var(--orange-700);
+
+  /* Font tokens */
+  --font-sans: var(--font-josefin-sans);
+  --font-display: var(--font-yeseva-one);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+@layer components {
+  .cms-prose {
+    @apply space-y-6 font-sans leading-relaxed text-lg md:text-xl text-[#1D080C];
+  }
+  .cms-prose h1 {
+    @apply font-display font-bold text-3xl md:text-4xl mt-10 mb-4;
+  }
+  .cms-prose h2 {
+    @apply font-display font-bold text-2xl md:text-3xl mt-8 mb-3;
+  }
+  .cms-prose h3 {
+    @apply font-display font-semibold text-xl md:text-2xl mt-6 mb-2;
+  }
+  .cms-prose h4 {
+    @apply font-display font-semibold text-lg md:text-xl mt-4 mb-2;
+  }
+  .cms-prose p {
+    @apply mt-4;
+  }
+  .cms-prose ul {
+    @apply list-disc pl-6 mt-4;
+  }
+  .cms-prose ol {
+    @apply list-decimal pl-6 mt-4;
+  }
+  .cms-prose li {
+    @apply mt-2;
+  }
+  .cms-prose a {
+    @apply underline text-orange-700 hover:text-orange-700/80;
+  }
+  .cms-prose blockquote {
+    @apply border-l-4 border-yellow-400 pl-4 italic mt-4;
+  }
+  .cms-prose img {
+    @apply my-6 rounded-md max-w-full h-auto;
+  }
+}
