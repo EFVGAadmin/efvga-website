@@ -10,7 +10,7 @@ export default function AboutPage() {
       imageAlt="Royal Mile guided tour"
       caption="Photo: EFVGA"
     >
-      <h1 className="text-3xl mb-4 font-display">About EFVGA</h1>
+      <h1 className="text-3xl mb-4 font-display">About EFVGA - test content change</h1>
       <p>
         The Edinburgh Festival Voluntary Guides Association (EFVGA) was founded
         in 1947, the same year as the Edinburgh International Festival, with the
