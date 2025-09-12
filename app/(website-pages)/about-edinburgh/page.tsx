@@ -16,7 +16,7 @@ export default function AboutEdinburgh() {
       imageAlt="Edinburgh Castle towering over the city"
       caption="Photo: Andy Stephenson"
     >
-      <h1 className="text-3xl mb-4 font-display">About Edinburgh **Festivals**</h1>
+      <h1 className="text-3xl mb-4 font-display">About Edinburgh</h1>
       <p className="mb-6 font-semibold">
         Here are some facts about our city which we hope you will find
         interesting.
