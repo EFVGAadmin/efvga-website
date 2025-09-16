@@ -55,7 +55,7 @@ const ToursSection: React.FC = () => {
           className="inline-block"
         >
           <Image
-            src="/tripadvisor-travellers-choice-awards-logo.png"
+            src="/tchotel_2025_LL.png"
             alt="TripAdvisor Travellers' Choice Award"
             width={155}
             height={170}
