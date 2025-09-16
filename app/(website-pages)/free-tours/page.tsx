@@ -16,7 +16,7 @@ export default function FreeTours() {
       caption="Photo: EFVGA"
     >
       <h1 className="text-3xl mb-4 font-display">
-        Free walking tours during August
+        Free walking tours during August 2026
       </h1>
       <p className="text-xl mb-8 font-sans font-semibold">
         Let us show you the hidden corners of Edinburgh's historic Old Town.
@@ -43,7 +43,7 @@ export default function FreeTours() {
         </li>
         <p>
           Tours leave from in front of the City Chambers in the Royal Mile at
-          10:30 and 14:00 (see our{" "}
+          10:30 and 14:00 from 9th to 30th August 2026 (see our{" "}
           <Link href="/contact_us" className="text-orange-700 underline">
             Contact Us
           </Link>{" "}
