@@ -11,7 +11,7 @@ export default function TestimonialsPage() {
     "/ta-4.png",
     "/ta-5.png",
     "/ta-6.png",
-    "/ta-7.png",
+    "/ta-7.png"
   ];
 
   const TESTIMONIALS = [
