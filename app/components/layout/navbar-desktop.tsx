@@ -8,7 +8,7 @@ import { FaLock } from "react-icons/fa";
 const ABOUT_SUB = [{ label: "About Edinburgh", href: "/about-edinburgh" }];
 
 const TOURS_SUB = [
-  { label: "Free Tours (2025)", href: "/free-tours" },
+  { label: "Free Tours (2026)", href: "/free-tours" },
   { label: "Private Tours", href: "/private-tours" },
   { label: "Safety on Tours", href: "/tour-safety" },
   { label: "Tours FAQ", href: "/tours-faq" },
