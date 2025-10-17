@@ -16,7 +16,7 @@ export default function FreeTours() {
       caption="Photo: EFVGA"
     >
       <h1 className="text-3xl mb-4 font-display">
-        Free walking tours during August 2026
+        Free walking tours during August
       </h1>
       <p className="text-xl mb-8 font-sans font-semibold">
         Let us show you the hidden corners of Edinburgh's historic Old Town.
