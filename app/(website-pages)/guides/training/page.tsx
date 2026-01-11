@@ -42,6 +42,12 @@ export default function TrainingResearch() {
           "Grassmarket Notes",
           ". Notes on the Grassmarket prepared by Eric Melvin and used in a training walk for guides in June 2025."
         )}
+        
+        {pdf(
+          "documents/Grassmarket Notes.pdf",
+          "Grassmarket Notes",
+          ". Notes on the Grassmarket prepared by Eric Melvin and used in a training walk for guides in June 2025."
+        )}
 
         {pdf(
           "documents/training.pdf",
