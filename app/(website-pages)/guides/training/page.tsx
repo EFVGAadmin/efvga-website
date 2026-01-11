@@ -46,7 +46,7 @@ export default function TrainingResearch() {
         {pdf(
           "documents/Old & New Town Walks1.pdf","documents/Old & New Town Walks2.pdf",
           "Old and New Town Walks",
-          "Material prepared by Eric Melvin for his classes on Old Edinburgh History. In five sections."
+          ". Material prepared by Eric Melvin for his classes on Old Edinburgh History. In five sections."
         )}
 
         {pdf(
