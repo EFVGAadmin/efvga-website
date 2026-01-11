@@ -40,7 +40,7 @@ export default function TrainingResearch() {
         {pdf(
           "documents/Grassmarket Notes.pdf",
           "Grassmarket Notes",
-          ". Notes on the Grassmarket prepared by Eric Melvin and used in a training walk for guides in June 2025."
+          ". Notes on the Grassmarket prepared by Eric Melvin and used for a training walk for guides in June 2025."
         )}
         
         {pdf(
