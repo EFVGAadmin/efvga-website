@@ -44,9 +44,9 @@ export default function TrainingResearch() {
         )}
         
         {pdf(
-          "documents/Grassmarket Notes.pdf",
-          "Grassmarket Notes",
-          ". Notes on the Grassmarket prepared by Eric Melvin and used in a training walk for guides in June 2025."
+          "documents/Old & New Town Walks1.pdf","documents/Old & New Town Walks2.pdf",
+          "Old and New Town Walks",
+          "Material prepared by Eric Melvin for his classes on Old Edinburgh History. In five sections."
         )}
 
         {pdf(

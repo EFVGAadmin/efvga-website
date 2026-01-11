@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function TestimonialsPage() {
   const AWARDS = [
-    "/ta-1.jpg",
+    "/ta-1.jpg",<div className="></div>
     "/ta-2.jpg",
     "/ta-3.jpg",
     "/ta-4.png",
