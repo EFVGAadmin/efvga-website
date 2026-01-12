@@ -48,8 +48,7 @@ export default function TrainingResearch() {
           "Old & New Town Walks",
           ". Material prepared by Eric Melvin for classes on Old Edinburgh History, in five sections."
         )}
-
-        {pdf(
+.        {pdf(
           "documents/training.pdf",
           "EFVGA Training Pack",
           ". Information for prospective guides, last updated March 2019. This is now a single document which replaces several earlier documents. "
