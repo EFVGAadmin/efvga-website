@@ -53,7 +53,7 @@ export default function FreeTours() {
         </li>
         <h2 className="text-2xl font-display my-8">Cost and booking</h2>
         <ul className="list-disc ml-6 space-y-2">
-          <li>All tours cost £10 per person. Rate for more than 20 is subject to agreement.</li>
+          <li>All tours cost £10 per person. Rates for more than 20 subject to agreement.</li>
           <li>
             There is no charge for primary or secondary school groups (including
             teachers and other accompanying adults) from within the City of
