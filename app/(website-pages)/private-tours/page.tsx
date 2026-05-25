@@ -93,7 +93,7 @@ export default function FreeTours() {
         </h3>
         <p>
           The quieter eastern section of the Royal Mile (the old Canongate
-          burgh), taking in Canongate Tolbooth, Canongate Kirk, the Scottish
+          burgh), taking in the Canongate Tolbooth, Canongate Kirk, the Scottish
           Parliament and the Palace of Holyroodhouse.
         </p>
         <h3 className="text-xl font-sans font-bold my-6">
