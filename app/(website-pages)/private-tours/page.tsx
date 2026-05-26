@@ -83,7 +83,7 @@ export default function FreeTours() {
           your personal preferences or to include any particular sites that you
           would like to visit.
         </p>
-        <p>Tours usually last about two hours.</p>
+        <p>Our tours usually last about two hours.</p>
         <h3 className="text-xl font-sans font-bold my-6">
           WALK 1: UPPER ROYAL MILE
         </h3>
