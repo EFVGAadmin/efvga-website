@@ -27,8 +27,8 @@ export default function Newsletters() {
 
       <ul className="list-disc ml-6 space-y-4">
 
-         {pdf("documents/newsletter_2026_Summer.pdf", "Summer 2026")
-         {pdf("documents/newsletter_2026_Spring.pdf", "Spring 2026")}
+        {pdf("documents/newsletter_2026_Summer.pdf", "Summer 2026")}
+        {pdf("documents/newsletter_2026_Spring.pdf", "Spring 2026")}
         {pdf("documents/newsletter_2025_Summer.pdf", "Summer 2025")}
         {pdf("documents/newsletter_2025_Spring.pdf", "Spring 2025")}
         {pdf("documents/newsletter_2024_Autumn.pdf", "Autumn 2024")}
