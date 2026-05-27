@@ -1,4 +1,4 @@
-"use client";
+."use client";
 
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
@@ -23,7 +23,7 @@ export default function CommitteePage() {
       </p>
       <p>
         This is an up-to-date list of the Association's officers and committee
-        members as at June 2024.
+        members as at June 2026.
       </p>
 
       <ul className="list-disc ml-6 space-y-4">
@@ -64,7 +64,8 @@ export default function CommitteePage() {
 
       <p className="font-semibold mt-4">Other committee members:</p>
       <ul className="list-disc ml-6 space-y-2">
-        <li>Elspeth McLean — 07753 123499, elspethmclean@hotmail.co.uk</li>
+        <li>Jock Anderson — 07361 425285, jockanderson123@gmail.com</li>
+        <li>Fiona Watt — 07941 390998, fionawatt2024@gmail.com</li>      
         <li>Colin Mckerchar — 07359 289803, mailmckerchar@gmail.com</li>
         <li>Graham Sutherland — 0131 667 3763, graham27@btinternet.com</li>
       </ul>
