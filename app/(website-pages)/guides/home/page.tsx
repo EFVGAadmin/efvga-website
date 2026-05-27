@@ -27,23 +27,23 @@ export default function GuidesHome() {
         <ul className="list-disc ml-6 space-y-4">
           <li>
             <Link
-              href="/documents/2025_agenda.pdf"
+              href="/documents/2026_agenda.pdf"
               className="text-orange-700 underline"
             >
-              AGM 2025 Agenda
+              AGM 2026 Agenda
             </Link>
             <ul className="list-disc ml-6 space-y-2">
               <li>
                 <Link
-                  href="/documents/2024_AGM_Minutes.pdf"
+                  href="/documents/2025_AGM_Minutes.pdf"
                   className="text-orange-700 underline"
                 >
-                  Draft Minutes of 2024 AGM
+                  Draft Minutes of 2025 AGM
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/documents/2024_treasurer.pdf"
+                  href="/documents/2025_treasurer.pdf"
                   className="text-orange-700 underline"
                 >
                   Statement of Financial Position

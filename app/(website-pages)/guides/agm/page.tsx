@@ -38,7 +38,7 @@ export default function AgmPapers() {
         Association.
       </p>
       <Section year="2025">
-        {pdf("documents/2024notice.pdf", "2025 AGM Notification")}
+       
         {pdf("documents/2025_agenda.pdf", "2025 AGM Agenda")}
         {pdf("documents/2024minutes.pdf", "2024 AGM Minutes")}
         {pdf("documents/2025_treasurer.pdf", "2025 Financial Report")}
