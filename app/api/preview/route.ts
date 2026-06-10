@@ -13,6 +13,10 @@ export async function GET(request: Request) {
     return new Response("Invalid preview secret", { status: 401 });
   }
 
+  console.log(slug);
+  console.log(secret);
+  console.log(process.env.STORYBLOK_PREVIEW_SECRET);
+
   const draft = await draftMode();
   draft.enable();
 
