@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     seo_description?: string;
     body?: unknown[];
   };
-
+  //
   if (!content.body?.length) return fallbackMetadata;
 
   return {
