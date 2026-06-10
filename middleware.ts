@@ -10,7 +10,10 @@ export default withAuth(
       signIn: "/guides",
     },
     callbacks: {
-      authorized: ({ token }) => !!token,
+      authorized: ({ token, req }) => {
+        if (req.cookies.has("__prerender_bypass")) return true;
+        return !!token;
+      },
     },
   }
 );

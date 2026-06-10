@@ -38,32 +38,47 @@ body {
 }
 
 @layer components {
+  /*
+   * Matches typography from HeroAlt / hardcoded page content:
+   * - h1/h2: Yeseva One (font-display) at normal weight
+   * - h3: Josefin Sans bold (e.g. private tour walk titles)
+   * - body: Josefin Sans text-lg/md:text-xl
+   */
   .cms-prose {
-    @apply space-y-6 font-sans leading-relaxed text-lg md:text-xl text-[#1D080C];
+    @apply font-sans leading-relaxed text-lg md:text-xl text-[#1D080C];
   }
   .cms-prose h1 {
-    @apply font-display font-bold text-3xl md:text-4xl mt-10 mb-4;
+    @apply font-display font-normal text-3xl mb-4;
   }
   .cms-prose h2 {
-    @apply font-display font-bold text-2xl md:text-3xl mt-8 mb-3;
+    @apply font-display font-normal text-2xl my-6;
   }
   .cms-prose h3 {
-    @apply font-display font-semibold text-xl md:text-2xl mt-6 mb-2;
+    @apply font-sans font-bold text-xl my-6;
   }
   .cms-prose h4 {
-    @apply font-display font-semibold text-lg md:text-xl mt-4 mb-2;
+    @apply font-sans font-bold text-lg my-4;
   }
   .cms-prose p {
     @apply mt-4;
   }
+  .cms-prose :is(h1, h2, h3, h4) + p {
+    @apply mt-0;
+  }
+  .cms-prose p:first-child {
+    @apply mt-0;
+  }
+  .cms-prose strong {
+    @apply font-semibold;
+  }
   .cms-prose ul {
-    @apply list-disc pl-6 mt-4;
+    @apply list-disc ml-6 space-y-2 mt-4;
   }
   .cms-prose ol {
-    @apply list-decimal pl-6 mt-4;
+    @apply list-decimal ml-6 space-y-2 mt-4;
   }
-  .cms-prose li {
-    @apply mt-2;
+  .cms-prose li > p {
+    @apply mt-0;
   }
   .cms-prose a {
     @apply underline text-orange-700 hover:text-orange-700/80;
@@ -73,5 +88,8 @@ body {
   }
   .cms-prose img {
     @apply my-6 rounded-md max-w-full h-auto;
+  }
+  .cms-prose ul ul {
+    @apply mt-2 space-y-2;
   }
 }

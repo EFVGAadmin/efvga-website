@@ -4,11 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "dev:ssl": "local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storyblok:setup": "node scripts/setup-storyblok.mjs",
+    "storyblok:upload-assets": "node scripts/upload-storyblok-assets.mjs",
+    "storyblok:upload-pdfs": "node scripts/upload-storyblok-pdfs.mjs",
+    "storyblok:seed-home": "node scripts/seed-home-story.mjs",
+    "storyblok:seed-pages": "node scripts/seed-pages.mjs",
+    "storyblok:seed-guides": "node scripts/seed-guides.mjs"
   },
   "dependencies": {
+    "@storyblok/react": "^6.1.11",
     "embla-carousel-react": "^8.6.0",
     "hamburger-react": "^2.4.1",
     "next": "15.4.10",
@@ -17,7 +25,8 @@
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
     "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1"
+    "remark-gfm": "^4.0.1",
+    "storyblok-js-client": "^7.6.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

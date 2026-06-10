@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Yeseva_One, Josefin_Sans } from "next/font/google";
 import "./globals.css";
-import NavbarDesktop from "./components/layout/navbar-desktop";
-import NavbarTouch from "./components/layout/navbar-touch";
-import Footer from "./components/layout/footer";
-import Topbar from "./components/layout/topbar";
+import SiteHeader from "./components/layout/SiteHeader";
+import SiteChromeFooter from "./components/layout/SiteChromeFooter";
 
 const yesevaOne = Yeseva_One({
   variable: "--font-yeseva-one",
@@ -36,15 +34,9 @@ export default function RootLayout({
       <body
         className={`${josefinSans.variable} ${yesevaOne.variable} antialiased bg-white`}
       >
-        <Topbar />
-        <div className="hidden xl:block sticky top-0 z-50">
-          <NavbarDesktop />
-        </div>
-        <div className="xl:hidden">
-          <NavbarTouch />
-        </div>
+        <SiteHeader />
         {children}
-        <Footer />
+        <SiteChromeFooter />
       </body>
     </html>
   );
