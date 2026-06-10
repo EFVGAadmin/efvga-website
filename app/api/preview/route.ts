@@ -5,6 +5,9 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const slug = searchParams.get("slug") || "home";
   const secret = searchParams.get("secret");
+  console.log(slug);
+  console.log(secret);
+  console.log(process.env.STORYBLOK_PREVIEW_SECRET);
 
   if (
     process.env.STORYBLOK_PREVIEW_SECRET &&
@@ -12,10 +15,6 @@ export async function GET(request: Request) {
   ) {
     return new Response("Invalid preview secret", { status: 401 });
   }
-
-  console.log(slug);
-  console.log(secret);
-  console.log(process.env.STORYBLOK_PREVIEW_SECRET);
 
   const draft = await draftMode();
   draft.enable();
